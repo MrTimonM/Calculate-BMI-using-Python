@@ -1,0 +1,11 @@
+#get height
+height = input("Write down your height in meter: \n")
+#get weight
+weight = input("Write down your weight in Kilogram: \n")
+#print(type(height))
+bmi = float(weight) / float(height) ** 2
+#get only first 2 digit
+hehe = int(bmi)
+print("Your BMI is: " + str(hehe))
+
+
